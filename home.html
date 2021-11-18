@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Contador de Cliques!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <div>
+      <script class="contagem">
+        var clicks = 0
+        function myFunction() {
+          clicks += 1
+          document.getElementById('demo').innerHTML = clicks
+        }
+      </script>
+    </div>
+  </head>
+  <body>
+    <div id="texto">
+    <p class="cliques">Clique no botão abaixo para contar os cliques:</p> </div>
+
+    <div id="cliqueaqui">
+      <button onclick="myFunction()">Clique aqui :)</button>
+    </div>
+
+    <p id="demo"></p>
+
+    <div id="img">
+      <img id="img" width="200" src="https://jornalfolhalitoral.com.br/wp-content/uploads/2019/08/Tigre-logo-6.png" alt="logotigre" />
+    </div>
+
+    <div id="recomece">
+      <a onClick="window.location.reload()">
+        Clique aqui para começar novamente.</a
+      >
+    </div>
+  </body>
+
+  <footer>
+    <div id="rodapé">
+      <p> Desenvolvido por Monique da Silva
+        <br>Programa Jovens Feras - Tigre 2021 </p>
+      </p>
+    </div>
+  </footer>
+</html>
